@@ -14,6 +14,9 @@ import ProgressBarsContainer from './projects/12-progress-bars/ProgressBarsConta
 import DialogBox from './projects/13-dialog-box/DialogBox';
 import FilterContactsApp from './projects/14-filter-contacts-app/FilterContactsApp';
 import RegForm from './projects/15-reg-form-validation/RegForm';
+import NotesApp from './projects/16-notes-app/NotesApp';
+import ResponsiveNav from './projects/17-responsive-nav/ResponsiveNav';
+import TextAnimationApp from './projects/18-text-animation/TextAnimationApp';
 
 function App() {
   return (
@@ -31,7 +34,10 @@ function App() {
       {/* <ProgressBarsContainer/> */}
       {/* <DialogBox/> */}
       {/* <FilterContactsApp/> */}
-      <RegForm/>
+      {/* <RegForm/> */}
+      {/* <NotesApp/> */}
+      {/* <ResponsiveNav/> */}
+      {/* <TextAnimationApp/> */}
     </div>
   );
 }
