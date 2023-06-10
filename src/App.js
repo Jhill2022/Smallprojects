@@ -17,6 +17,9 @@ import RegForm from './projects/15-reg-form-validation/RegForm';
 import NotesApp from './projects/16-notes-app/NotesApp';
 import ResponsiveNav from './projects/17-responsive-nav/ResponsiveNav';
 import TextAnimationApp from './projects/18-text-animation/TextAnimationApp';
+import CompoundInterestRateApp from './projects/19-compound-interest-rate-calc/CompoundInterestRateApp';
+import TasksTrackerApp from './projects/21-tasks-tracker/TasksTrackerApp';
+import CardGameUi from './projects/22-card-game-ui/CardGameUi';
 
 function App() {
   return (
@@ -38,6 +41,9 @@ function App() {
       {/* <NotesApp/> */}
       {/* <ResponsiveNav/> */}
       {/* <TextAnimationApp/> */}
+      {/* <CompoundInterestRateApp/> */}
+      {/* <TasksTrackerApp/> */}
+      <CardGameUi/>
     </div>
   );
 }
