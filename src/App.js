@@ -20,6 +20,9 @@ import TextAnimationApp from './projects/18-text-animation/TextAnimationApp';
 import CompoundInterestRateApp from './projects/19-compound-interest-rate-calc/CompoundInterestRateApp';
 import TasksTrackerApp from './projects/21-tasks-tracker/TasksTrackerApp';
 import CardGameUi from './projects/22-card-game-ui/CardGameUi';
+import AnimatedLoginForm from './projects/23-animated-login-form/AnimatedLoginForm';
+import PhoneBookApp from './projects/24-phone-book/PhoneBookApp';
+import ExpensesCalcApp from './projects/25-expenses-calculator/ExpensesCalcApp';
 
 function App() {
   return (
@@ -43,7 +46,10 @@ function App() {
       {/* <TextAnimationApp/> */}
       {/* <CompoundInterestRateApp/> */}
       {/* <TasksTrackerApp/> */}
-      <CardGameUi/>
+      {/* <CardGameUi/> */}
+      {/* <AnimatedLoginForm/> */}
+      {/* <PhoneBookApp/> */}
+      <ExpensesCalcApp/>
     </div>
   );
 }
