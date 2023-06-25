@@ -2,7 +2,7 @@ import React from 'react';
 import { MdDelete } from 'react-icons/md';
 import ExpenseItem from './ExpenseItem';
 
-export default function ExpensesList({ expenses, clearItems, handleDelete, handleEdit }) {
+export default function ExpensesList({ expenses, handleClearAllExpenses, handleDelete, handleEdit }) {
   return (
     <>
       <ul className="list">
@@ -11,7 +11,7 @@ export default function ExpensesList({ expenses, clearItems, handleDelete, handl
       })}
       </ul>
       {expenses.length > 0 && (
-        <button className="btn btn-danger" onClick={clearItems}>
+        <button className="btn btn-danger" onClick={handleClearAllExpenses}>
           <MdDelete /> Clear all expenses
         </button>
       )}
